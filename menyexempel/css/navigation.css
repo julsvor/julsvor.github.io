@@ -1,9 +1,8 @@
 ul {
 position: fixed;
 overflow: auto;
-left: 40%;
 bottom: 0;
-width: 25%;
+width: 100%;
 list-style-type: none;
 margin: auto;
 padding: 0;
