@@ -30,6 +30,11 @@ li a:hover {
 background-color: #111;
 }
 
+header {
+    padding-top: 16px;
+}
+
 @media screen and (max-width: 600px) {
     ul li {float: none;}
+    header {padding-top: 90px;}
   }
