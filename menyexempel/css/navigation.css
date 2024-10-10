@@ -1,10 +1,14 @@
+body {
+    margin: 0;
+}
+
 ul {
 position: fixed;
 overflow: auto;
-bottom: 0;
+top:0;
 width: 100%;
 list-style-type: none;
-margin: auto;
+margin: 0;
 padding: 0;
 overflow: hidden;
 background-color: #333;
@@ -25,3 +29,7 @@ text-decoration: none;
 li a:hover {
 background-color: #111;
 }
+
+@media screen and (max-width: 600px) {
+    ul li {float: none;}
+  }
