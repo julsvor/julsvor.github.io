@@ -2,15 +2,17 @@ body {
     margin: 0;
 }
 
+.red-border {
+    border-bottom: red solid 5px;
+}
+
 ul {
 position: fixed;
-overflow: auto;
 top:0;
 width: 100%;
 list-style-type: none;
 margin: 0;
 padding: 0;
-overflow: hidden;
 background-color: #333;
 }
 
@@ -38,3 +40,39 @@ header {
     ul li {float: none;}
     header {padding-top: 90px;}
   }
+
+.dropdown {
+    position: relative;
+}
+
+.drowdown-ctn a, .dropdown-btn {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-ctn {
+    display: block;
+}
+
+.dropdown-ctn a {
+    color: black;
+    border: black solid 1px;
+}
+
+.dropdown-ctn a:hover {
+    background-color: #999;
+}
+
+.dropdown-ctn {
+display: none;
+color: black;
+background-color: white;
+position: absolute;
+min-width: 80px;
+z-index: 1;
+/* padding: 14px 16px; */
+/* top: 45px;
+left: 0;   */
+}
