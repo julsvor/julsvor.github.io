@@ -2,11 +2,11 @@ body {
     margin: 0;
 }
 
-.red-border {
+.red-bottom-border {
     border-bottom: red solid 5px;
 }
 
-ul {
+.mainmenu ul {
 position: fixed;
 top:0;
 width: 100%;
@@ -16,11 +16,11 @@ padding: 0;
 background-color: #333;
 }
 
-li {
+.mainmenu li {
 float: left;
 }
 
-li a {
+.nav-element {
 display: block;
 color: white;
 text-align: center;
@@ -39,16 +39,16 @@ header {
 @media screen and (max-width: 600px) {
     ul li {float: none;}
     header {padding-top: 90px;}
-  }
+}
 
 .dropdown {
     position: relative;
 }
 
-.drowdown-ctn a, .dropdown-btn {
+.dropdown-btn {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-decoration: none;
 }
 
@@ -57,8 +57,11 @@ header {
 }
 
 .dropdown-ctn a {
+    display: block;
     color: black;
     border: black solid 1px;
+    padding: 14px 20px;
+    text-decoration: none;
 }
 
 .dropdown-ctn a:hover {
@@ -70,9 +73,6 @@ display: none;
 color: black;
 background-color: white;
 position: absolute;
-min-width: 80px;
+width: 100%;
 z-index: 1;
-/* padding: 14px 16px; */
-/* top: 45px;
-left: 0;   */
 }
