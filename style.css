@@ -1,0 +1,45 @@
+.main-header {
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: auto;
+}
+
+
+.main-content {
+border: 2px solid black;
+border-radius: 15px;
+padding: 5px;
+margin: auto;
+}
+
+.project-links {
+    list-style-type: none;
+}
+
+.project-links li {
+    width:100%;
+    border: 1px solid black;
+}
+
+.project-links li:nth-child(odd) {
+    background-color: #CCC;
+}
+
+.project-links li:nth-child(even) {
+    background-color: #EEE;
+}
+
+.project-links a:hover {
+    background-color: #BBB;
+}
+
+.project-links a {
+    width: 100%;
+    height: 100%;
+    padding: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
