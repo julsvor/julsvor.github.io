@@ -5,13 +5,26 @@
 const fixedMessageDiv = document.querySelector('.fixed-message')
 const fixedMessageText = document.querySelector('.fixed-message-text')
 
+const buyButtons = document.querySelectorAll('.buy-button')
 
 
-
+var shown = false
 
 function displayMessage(msg) {
-    // fixedMessageText.style
-    fixedMessageText.textContent = msg
+    if (!shown) {
+        shown = true
+        console.log('!world, hellO')
+        fixedMessageDiv.style.display = 'block'
+        //fixedMessageText.textContent = msg
+        fixedMessageText.textContent = 'This product is out of stock'
+        setTimeout(()=>{
+            fixedMessageDiv.style.display = 'none'
+            shown = false
+        }, 5000)
+    }
 }
 
-displayMessage('hello world')
+
+buyButtons.forEach(element => {
+    element.addEventListener('click', displayMessage)
+})
