@@ -38,6 +38,22 @@
     width: 10vw;
 }
 
+
+.store-section-potato {
+    background-image: url("../images/potatis-3.jpg");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.store-section-carrot {
+    background-image: url("../images/morot-1.jpg");
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 .store-section h3, .store-section h4 {
     font-family: Arial, Helvetica, sans-serif;
 }
