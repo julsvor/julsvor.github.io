@@ -13,9 +13,7 @@ var shown = false
 function displayMessage(msg) {
     if (!shown) {
         shown = true
-        console.log('!world, hellO')
         fixedMessageDiv.style.display = 'block'
-        //fixedMessageText.textContent = msg
         fixedMessageText.textContent = 'This product is out of stock'
         setTimeout(()=>{
             fixedMessageDiv.style.display = 'none'
