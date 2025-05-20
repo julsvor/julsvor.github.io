@@ -14,7 +14,7 @@ function displayMessage(msg) {
     if (!shown) {
         shown = true
         fixedMessageDiv.style.display = 'block'
-        fixedMessageText.textContent = 'This product is out of stock'
+        fixedMessageText.textContent = 'Det är slut på denna varan'
         setTimeout(()=>{
             fixedMessageDiv.style.display = 'none'
             shown = false
