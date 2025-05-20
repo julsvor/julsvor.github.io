@@ -1,0 +1,57 @@
+
+
+
+.store-img {
+    /* height: 40%; */
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: black;
+    filter:blur(1px);
+}
+
+.store-img-div {
+    width: 80vw;
+    height: 20vh;
+    display: flex;
+    margin: auto;
+    justify-content:center;
+    /* border-color: black;
+    border-style: dotted;
+    border-width: 2px; */
+    background-color: whitesmoke;
+    overflow-x: auto;
+    flex-shrink: 0;
+}
+
+.main-store-div {
+    display:  flex;
+    gap: 2%;
+}
+
+.store-section {
+    text-align: center;
+    background-color: whitesmoke;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 10vw;
+}
+
+.store-section h3, .store-section h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.store-section button {
+    margin-bottom: 10%;
+
+}
+
+.fixed-message {
+    display: none;;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: red;
+    width: 100vw;
+}

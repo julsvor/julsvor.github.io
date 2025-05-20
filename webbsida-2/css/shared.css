@@ -1,0 +1,77 @@
+
+
+
+
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.topbar {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100vw;
+height: 17vh;
+background-color: greenyellow;
+text-align: center;
+background-image: url("../images/wheat.jpg");
+background-position-x: center;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.topbar h1 {
+margin: 0;
+padding: 0;
+padding-top: 0.5%;
+padding-bottom: 0.5%;
+color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+    border-color: white;
+    border-width: 2px;
+    border-style: dotted;
+    /* background-color: ; */
+}
+
+.topbar a:hover {
+    text-decoration: underline;
+}
+
+.footer-div {
+/* position:absolute; */
+text-align: center;
+bottom: 0;
+width: 100vw;
+}
+
+main {
+    width: 80vw;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
