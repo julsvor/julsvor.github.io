@@ -18,8 +18,10 @@
     justify-content:center;
     /* border-color: black;
     border-style: dotted;
-    border-width: 2px; */
+    border-width: 2px; 
     background-color: whitesmoke;
+    */
+    gap: 5%;
     overflow-x: auto;
     flex-shrink: 0;
 }
