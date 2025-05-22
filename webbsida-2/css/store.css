@@ -52,10 +52,11 @@
 }
 
 .store-section-carrot {
-    background-image: url("../images/morot1.jpg");
+    background-image: url("../images/morot1.webp");
     background-position-x: center;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
 
 
