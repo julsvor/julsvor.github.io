@@ -25,6 +25,7 @@ background-image: url("../images/wheat.webp");
 background-position-x: center;
 background-repeat: no-repeat;
 background-position: center;
+background-size: 100%;
 }
 
 .topbar h1 {
